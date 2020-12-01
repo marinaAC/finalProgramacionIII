@@ -1,0 +1,23 @@
+{
+    "name": "maru/final-comanda",
+    "description": "Parcial2",
+    "authors": [
+        {
+            "name": "marinaAC",
+            "email": "maru.cardozo02@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/psr7": "^1.3",
+        "slim/slim": "4.*",
+        "firebase/php-jwt": "^5.2",
+        "illuminate/database": "^8.16",
+        "illuminate/events": "^8.16"
+    },
+    "autoload": {
+        "psr-4":{
+            "Config\\":"config/",
+            "App\\":"src/"
+        }
+    }
+}
